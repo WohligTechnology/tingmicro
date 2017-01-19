@@ -7,4 +7,5 @@ production/
 *.zip
 css/
 img2/
-gulpfile.js
+.DS_Store
+*/.DS_Store
