@@ -28,6 +28,11 @@ var navigationservice = angular.module('navigationservice', [])
       classis: "active",
       anchor: "ting-seo",
 },
+  {
+      name: "Ting-Video",
+      classis: "active",
+      anchor: "ting-Video",
+},
      {
         name: "Form",
         classis: "active",

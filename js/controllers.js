@@ -19,6 +19,12 @@ angular.module('phonecatControllers', ['templateservicemod', 'navigationservice'
     TemplateService.title = $scope.menutitle;
     $scope.navigation = NavigationService.getnav();
 })
+.controller('Ting-VideoCtrl', function($scope, TemplateService, NavigationService, $timeout) {
+    $scope.template = TemplateService.changecontent("ting-video"); //Use same name of .html file
+    $scope.menutitle = NavigationService.makeactive("Ting-Video"); //This is the Title of the Website
+    TemplateService.title = $scope.menutitle;
+    $scope.navigation = NavigationService.getnav();
+})
 .controller('Ting-SeoCtrl', function($scope, TemplateService, NavigationService, $timeout) {
     $scope.template = TemplateService.changecontent("ting-seo"); //Use same name of .html file
     $scope.menutitle = NavigationService.makeactive("Ting-Seo"); //This is the Title of the Website

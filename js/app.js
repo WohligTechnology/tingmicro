@@ -27,6 +27,11 @@ firstapp.config(function($stateProvider, $urlRouterProvider, $httpProvider, $loc
             url: "/ting-seo",
             templateUrl: "views/template.html",
             controller: 'Ting-SeoCtrl'
+        })
+        .state('ting-video', {
+            url: "/ting-video",
+            templateUrl: "views/template.html",
+            controller: 'Ting-VideoCtrl'
         });
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);

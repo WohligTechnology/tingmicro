@@ -414,5 +414,25 @@ width: 82%;
 sup{
    font-size: 30px;
  }
+ // ting-video scss
+
+ .vid-sec{
+     background-color: black;
+     height: 100px;
+     width:200px;
+      color:wheat;
+-webkit-clip-path: polygon(9% 0, 84% 0, 100% 39%, 0 40%);
+clip-path: polygon(9% 0, 84% 0, 100% 39%, 0 40%);
+ }
+ .a{
+     background-color: black;
+     height: 50px;
+     width:500px;
+     -webkit-clip-path: polygon(9% 0, 84% 0, 100% 39%, 0 40%);
+    clip-path: polygon(9% 0, 84% 0, 100% 39%, 0 40%);
+
+
+ }
+@import "style";
 @import "fancybox-override";
 @import "mobile";

@@ -1,5 +1,126 @@
-@media (max-width: $screen-xs-max) {}
+@media (max-width: 1024px) {
 
-@media (max-width: $screen-sm-max) {}
+}
+    @media (max-width: 921px) {
 
-@media (max-width: $screen-md-max) {}
+    }
+        @media (max-width: 767px) {
+            
+        }
+
+          @media (max-width: 480px) {
+              //scss for header
+             header{
+             .head-menu .logo {
+                    margin: 0 auto;
+                    width: 100px;
+                    margin-top: 7px;
+                    padding-left: 15px;
+                             }
+            .prev-btn {
+                   top: 25%;
+                      }
+
+                   }
+    
+    //scss for brand
+           
+.brand-thief
+  {
+    margin-top: 38px;
+  }
+.identity-sec{
+     font-size: 35px;
+   }
+ .dont-wry{
+     font-size:20px;
+     margin-left:9px;
+       }
+
+.brand-content 
+{
+    padding-top: 0px;
+}
+  .brand-img{
+      height: auto;
+          }
+  .brand1{
+    flex-wrap: wrap;
+   
+   .img-brand{
+    flex: auto;
+    img{
+         width:100%;
+        padding:3px;
+        height:auto;
+        }
+      }
+    }
+
+
+    //scss for ting-seo
+
+   .seo-content .srch-sec{
+    margin-top:40px;
+    font-size: 15px;
+    width:100%;
+            }
+
+    .block-1 {
+        border: none; 
+        p {
+    font-size: 13px;
+    width: 80%;
+    margin-top: 10px;
+    
+       }
+        }
+    .keywords-sec
+     {
+    font-size:20px;
+    width: 48%;
+     }
+     .count-50 {
+    font-size: 53px;
+    width: 23%;
+     }
+  .block-2{
+    border-top:1px solid;
+    border-bottom:1px solid;
+    margin-bottom: 10px;
+        }
+ .block-3{
+      border-bottom: 1px solid black;
+    }
+    .section-2 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+     }
+    .block-4{
+       
+        border-bottom: 1px solid black;
+        text-align:center;
+        padding-left: 0px !important;
+    }
+   .block-5{
+    border: none;
+    margin-top: 12px;
+     margin-bottom: 15px;
+    text-align: center;
+    }
+    .marketing-agency {
+        padding:0px !important;
+    }
+   //scss for footer
+
+ footer {
+       .test{
+            float: none!important;
+            text-align: center;
+           }
+      }
+          }
+ @media (max-width: 320px)
+{
+
+}
