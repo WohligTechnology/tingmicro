@@ -67,7 +67,8 @@
             }
 
     .block-1 {
-       // border: none; 
+        border: none; 
+        margin-bottom: 15px;
         p {
     font-size: 13px;
     width: 80%;
@@ -78,36 +79,42 @@
     .keywords-sec
      {
     font-size:20px;
-    width: 48%;
+    width: 50%;
      }
      .count-50 {
     font-size: 53px;
     width: 23%;
      }
   .block-2{
-    border-top:1px solid;
-    border-bottom:1px solid;
+    border-top:1px solid black;
     margin-bottom: 10px;
+    height:auto;
         }
  .block-3{
-      border-bottom: 1px solid black;
+      border-top: 1px solid black;
+      margin-bottom: 0px;
     }
     .section-2 {
     margin-top: 12px;
     margin-bottom: 0px;
      }
     .block-4{
-       
-        border-bottom: 1px solid black;
+        border-top: 1px solid black;
         text-align:center;
         padding-left: 0px !important;
+        margin-bottom: 0px;
     }
    .block-5{
-    border: none;
-    margin-top: 12px;
-     margin-bottom: 15px;
+    border-top: 1px solid black;
     text-align: center;
     }
+    .main-cen {
+    width: 100%;
+    }
+    .font20{
+            margin-right: 66px;
+    }
+
     .marketing-agency {
         padding:0px !important;
     }
