@@ -12,7 +12,8 @@ $brand-success: #84ce3c !default;
 $brand-warning: #ffec39 !default;
 $brand-danger: #fc483f !default;
 $brand-info: #000072 !default;
-@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap"; // body {
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap"; 
+// body {
 //     padding-top: 70px;
 // }
 @font-face {
@@ -343,8 +344,21 @@ padding-top: 60px;
 }
 .small-sec{
   width: 86%;
-margin: 0 auto;
+  margin: 0 auto;
 }
+ .seo-title-bg{
+         .wp2
+    {
+         width: 177px !important;
+    }
+   p{
+    background-image: url("../img/seo/head.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 85%;
+   }
+    }
 .count-50{
   font-size: 53px;
   width: 20%;
@@ -352,7 +366,7 @@ margin: 0 auto;
 .keywords-sec{
   font-size: 20px;
       width: 36%;
-          font-weight: 600;
+         font-weight: 600;
 }
 .block-normal{
   font-size: 16px;
@@ -363,19 +377,35 @@ margin: 0 auto;
 .mgt10{
   margin-top: -10px;
 }
-.block-1:last-child{
-  border-right: none;
-}
-.block-1{
-  border-right: 1px solid;
-padding: 0;
-    height: 175px;
+.font45{    font-size: 46px;
+    font-weight: 100;
+    }
+.font20{   
+     font-size: 20px;
+    font-weight: 600;
+    }
+    .l-he16{
+            line-height: 16px;
+            }
+    .first{   
+    text-align: right;
+    width: 68px;
+    display: inline-block;
+    }
+    .last{
+    width: 20px;
+    display: inline-block;
+    }
+.block-1{   
+    border-right: 1px solid black;
+    padding: 0;
+    padding-bottom: 5px;
   p{
     font-size: 16px;
-    width: 66%;
-margin: 0 auto;
-font-weight: bold;
-letter-spacing: 2px;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: bold;
+    letter-spacing: 2px;
   }
 }
 
@@ -388,12 +418,16 @@ letter-spacing: 2px;
     }
 }
 .block-2{
+    border-right: 1px solid black;
+        padding-right: 17px;
 p{
   width: 75%;
 }
+
 .count-50{
   font-size: 40px;
-width: 82%;
+  width: 82%;
+  display: inline;
 }
 .inc-seo{
   width: 84%;
@@ -401,19 +435,62 @@ width: 82%;
 }
 }
 .block-3{
+        padding-right: 13px;
+    border: none;            
   .keywords-sec {
     font-size: 20px;
     width: 46%;
     font-weight: 600;
 }
+
 .blk-cen{
   margin: 0 auto;
       width: 68%;
 }
 }
+
 sup{
    font-size: 30px;
  }
+  .student-sec
+{
+width: 36%;
+font-weight: 600;
+font-size: 20px;
+margin-left: 50px;
+}
+.section-2{
+        margin-top: 50px;
+}
+.block-4{
+height: auto;
+   .keywords-sec{
+      display: block;
+      width: 100%;
+  }
+  .block-normal
+  {
+          display: block;
+  }
+   .start-sec{
+            padding: 22px 40px;
+        }
+}
+
+.block-5{
+        border:none;  
+}
+.main-cen{
+      width: 68%;
+}
+.m-15{
+        margin-top: -15px;
+ }
+//    .mg-right{
+//        padding-right: 115px;
+//    }
+
+ //scss for ting-video
  .video-bg{
      background-image: url("../img/branding/video-bg.png");
      background-size: cover;
@@ -681,7 +758,8 @@ h3{
       
       
   }
-  
+ 
+
  // ting-video scss
 
  .vid-sec{
@@ -702,7 +780,12 @@ clip-path: polygon(9% 0, 84% 0, 100% 39%, 0 40%);
 
  }
   }
+<<<<<<< HEAD
 @import "style";
 @import "fancybox-override";
 @import "mobile";
   
+=======
+@import "fancybox-override";
+@import "mobile";
+>>>>>>> 0f9c934b644317db06aebec95006621a2dc74628
